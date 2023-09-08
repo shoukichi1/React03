@@ -11,7 +11,7 @@ function App() {
     e.preventDefault();
     console.log(ref.current.value);
     // API URL  
-    const endpointURL =`https://pixabay.com/api/?key=39329045-d52c9927da2680e85cb318eb5&q=${ref.current.value}&image_type=photo`
+    const endpointURL =`https://pixabay.com/api/?key=API KEY&q=${ref.current.value}&image_type=photo`
     // APIを叩く
     fetch(endpointURL)
       .then((res) => {
